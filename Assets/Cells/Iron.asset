@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c5fb2e216badd4680d0bb45fbc864b, type: 3}
+  m_Name: Iron
+  m_EditorClassIdentifier: 
+  color:
+    serializedVersion: 2
+    rgba: 9012610
+  cellName: Iron
+  state: 0
+  isStatic: 1
+  gravityType: 0
+  cellDensity: 7860
+  coldPhasePoint: 0
+  hotPhasePoint: 1538
+  thermalConductivity: 80
+  specificHeat: 450
+  emissivity: 0.3
+  coldTransitionCell: {fileID: 0}
+  hotTransitionCell: {fileID: 11400000, guid: c0c3b59d08346a44eb8b1d8f21f4b015, type: 2}
+  compactness: 1
+  dispersionRate: 1
+  floatSlowMod: 10

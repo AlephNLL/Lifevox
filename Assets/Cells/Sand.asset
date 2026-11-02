@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c5fb2e216badd4680d0bb45fbc864b, type: 3}
+  m_Name: Sand
+  m_EditorClassIdentifier: 
+  color:
+    serializedVersion: 2
+    rgba: 3589602
+  cellName: Sand
+  state: 0
+  isStatic: 0
+  gravityType: 1
+  cellDensity: 1420
+  coldPhasePoint: 0
+  hotPhasePoint: 1700
+  thermalConductivity: 0.3
+  specificHeat: 800
+  emissivity: 0.9
+  coldTransitionCell: {fileID: 0}
+  hotTransitionCell: {fileID: 11400000, guid: e82df8f4ed88d6140b8fb3ed91b8d31e, type: 2}
+  compactness: 6
+  dispersionRate: 0
+  floatSlowMod: 10
